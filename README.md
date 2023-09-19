@@ -1,16 +1,16 @@
 ### Hi there 👋
 
-<!--
-**uveshm003/uveshm003** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+![Uvesh's github stats](https://github-readme-stats.vercel.app/api?username=uveshm003&show_icons=true&theme=react)
+## 🚀 About Me
+I'm an 21 year old coding enthusiast with some knowledge in App and Web Development!
+
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🔭 I’m currently working at Kody Technolabs.
+- 🌱 I’m currently learning Flutter And Native Android App Development
+<!-- - 👯 I’m looking to collaborate on ...  -->
+- 💬 Ask me about Android|IOS|App Development|Flutter
+- 📫 How to reach me: uveshmenpur.03@gmail.com
+- 😄 Pronouns: He/Him
+<!-- - ⚡ Fun fact: ... -->
