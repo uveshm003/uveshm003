@@ -5,10 +5,10 @@
 
 ## 🚀 About Me
 I'm an 21 year old coding enthusiast with some knowledge in App and Web Development!
-<br>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=uveshm003" alt="uveshm003" /> </p>
-<br />
 
+<!-- <br>  -->
+<!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=uveshm003" alt="uveshm003" /> </p> -->
+<!-- <br /> -->
 
 Here are some ideas to get you started:
 
