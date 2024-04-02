@@ -4,7 +4,7 @@
 ![Uvesh's github stats](https://github-readme-stats.vercel.app/api?username=uveshm003&show_icons=true&theme=react)
 
 ## 🚀 About Me
-I'm an 21 year old coding enthusiast with some knowledge in App and Web Development!
+I'm a 21-year-old coding enthusiast with a solid understanding of both mobile app and web development. I enjoy exploring these domains and have gained valuable experience along the way.
 
 <!-- <br>  -->
 <!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=uveshm003" alt="uveshm003" /> </p> -->
