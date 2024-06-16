@@ -1,7 +1,7 @@
 # Hi, I'm Uvesh Menpurwala! 👋
 
 
-![Uvesh's github stats](https://github-readme-stats.vercel.app/api?username=uveshm003&show_icons=true&theme=react)
+<!--![Uvesh's github stats](https://github-readme-stats.vercel.app/api?username=uveshm003&show_icons=true&theme=react) -->
 
 ## 🚀 About Me
 I'm a 21-year-old coding enthusiast with a solid understanding of both mobile app and web development. I enjoy exploring these domains and have gained valuable experience along the way.
