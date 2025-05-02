@@ -11,9 +11,9 @@ Passionate about UI, performance & clean code.
 <!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=uveshm003" alt="uveshm003" /> </p> -->
 <!-- <br /> -->
 Here are some ideas to get you started:
-- 🔭 I’m currently working at KaymaTech.
-- 🌱 I’m currently learning Flutter And Native Android App Development
-- 💬 Ask me about Android | IOS | App Development | Flutter
+- 🔭 I’m currently working on Improving myself.
+- 🌱 I’m currently exploring Philosophy.
+- 💬 Ask me about Flutter or Anything about App Development.
 - 📫 How to reach me: uveshmenpur.03@gmail.com
   
 <!-- - ⚡ Fun fact: ... -->
