@@ -19,10 +19,9 @@ Here are some ideas to get you started:
 <!-- - ⚡ Fun fact: ... -->
 <!-- - 👯 I’m looking to collaborate on ...  -->
 
-
 # 📊 GitHub Stats:
-![Some stats](https://github-readme-stats.vercel.app/api?username=SirusCodes&show_icons=true&include_all_commits=true)
-![Some stats](https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=SirusCodes&layout=compact)
+![Some stats](https://github-readme-stats.vercel.app/api?username=uveshm003&show_icons=true&include_all_commits=true)
+![Some stats](https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=uveshm003&layout=compact)
 
 
 <!-- # 💻 Tech Stack:
