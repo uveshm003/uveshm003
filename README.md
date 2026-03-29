@@ -71,7 +71,7 @@ I’m passionate about creating clean user interfaces, optimizing app performanc
 
 💙 Flutter Developer passionate about building smooth, scalable, and high-performance cross-platform applications using Dart.
 
-I enjoy crafting clean user experiences, optimizing performance, and writing maintainable code that scales well over time. I believe in continuous improvement — both technically and personally — and actively work on refining my problem-solving approach and development practices.
+I enjoy crafting clean user experiences, optimizing performance, and writing maintainable code that scales well over time. I believe in continuous improvement - both technically and personally - and actively work on refining my problem-solving approach and development practices.
 
 Beyond coding, I explore philosophy and self-growth to build a stronger mindset, improve decision-making, and stay grounded while working on complex problems.
 
