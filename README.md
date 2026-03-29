@@ -16,11 +16,9 @@ Here are some ideas to get you started:
 - 💬 Ask me about Flutter or Anything about App Development.
 - 📫 How to reach me: uveshmenpur.03@gmail.com
   
-<!-- - ⚡ Fun fact: ... -->
-<!-- - 👯 I’m looking to collaborate on ...  -->
+- 👯 I’m open to freelance and startup opportunities and excited to collaborate on meaningful projects that make a real difference.
 
 # 📊 GitHub Stats:
-![Some stats](https://github-readme-stats.vercel.app/api?username=uveshm003&show_icons=true&include_all_commits=true)
 ![Some stats](https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=uveshm003&layout=compact)
 
 
