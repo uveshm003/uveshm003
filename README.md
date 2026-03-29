@@ -62,7 +62,6 @@ I’m passionate about creating clean user interfaces, optimizing app performanc
 - 👯 Open to freelance and startup opportunities  
 - 🚀 Interested in collaborating on meaningful and impactful projects  
 - 📫 Reach me at: uveshmenpur.03@gmail.com  
--->
 
 
 ### Hi there, I'm [Uvesh](https://www.linkedin.com/in/muhammaduvesh/) 👋
@@ -100,3 +99,40 @@ Beyond coding, I explore philosophy and self-growth to build a stronger mindset,
 - 🚀 Excited to collaborate on meaningful projects that create real impact  
 - 📫 Reach me at: uveshmenpur.03@gmail.com  
 
+-->
+
+### Hi there, I'm [Uvesh](https://www.linkedin.com/in/muhammaduvesh/) 👋
+
+## 🚀 About Me
+
+💙 Flutter Developer passionate about building smooth, scalable, and high-performance cross-platform applications using Dart.
+
+I enjoy crafting clean user experiences, optimizing performance, and writing maintainable code that scales well over time. Alongside Flutter, I have experience in Android Native development and am currently expanding my skill set by learning Python and exploring its frameworks.
+
+I believe in continuous improvement - both technically and personally - and actively work on refining my problem-solving approach and development practices.
+
+---
+
+## 🛠️ What I Do
+
+- 📱 Build cross-platform mobile applications using Flutter & Dart  
+- 🤖 Explore Python and its frameworks to broaden development capabilities  
+- 📲 Experience with Android Native development  
+- 🎯 Focus on performance, responsiveness, and clean architecture  
+- 🧠 Continuously improve coding standards and problem-solving skills  
+
+---
+
+## 🌱 Currently
+
+- 🔭 Working on improving myself - both as a developer and as a thinker  
+- 🌱 Exploring Python, frameworks, and philosophy  
+- 💬 Open to discussions around Flutter, mobile development, and tech  
+
+---
+
+## 🤝 Let’s Connect
+
+- 👯 Open to freelance and startup opportunities  
+- 🚀 Excited to collaborate on meaningful projects that create real impact  
+- 📫 Reach me at: uveshmenpur.03@gmail.com  
