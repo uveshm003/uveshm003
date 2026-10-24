@@ -502,6 +502,14 @@ If you want to talk about Flutter, how it works under the hood, apps that talk t
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E3B8A,50:2D5BD0,100:0E7C6B&height=110&section=footer" alt="" />
 </p>
+
+```mermaid
+pie showData
+    title Months spent at each company
+    "Kody Technolabs" : 16
+    "Kaymatech" : 9
+    "Halma India (Sensit)" : 12
+```
 -->
 
 <!-- ==================== v7 (current live version, October 2026) ==================== -->
@@ -599,13 +607,7 @@ timeline
     2026 : SMX Drives went live on Google Play and the App Store
 ```
 
-```mermaid
-pie showData
-    title Months spent at each company
-    "Kody Technolabs" : 16
-    "Kaymatech" : 9
-    "Halma India (Sensit)" : 12
-```
+
 
 ## 🧰 Tech I use
 
