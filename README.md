@@ -10,6 +10,13 @@ Older versions are kept in the comment blocks below, oldest first:
 To switch versions: wrap the live version in HTML comment markers, then
 remove the markers around the version you want to use.
 
+ADDING NEW ACHIEVEMENTS (v7 "Achievements" section):
+  Paste each new <img> tag inside the same <p> block as Nebula Novice,
+  one per line, so the badges sit side by side. Keep the <a> wrapper and
+  give each one an alt text, for example:
+    <a href="https://community.vaunt.dev/board/uveshm003/achievements"><img src="NEW_BADGE_URL" width="300" alt="Badge name: what it was for" /></a>
+  If the row gets crowded, lower width to 200 on every badge.
+
 TODO for v7:
   - Add TakeProfit and Xandria store links if they are still live
   - Add 2-3 Kaymatech app store links you're allowed to share
@@ -502,14 +509,6 @@ If you want to talk about Flutter, how it works under the hood, apps that talk t
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E3B8A,50:2D5BD0,100:0E7C6B&height=110&section=footer" alt="" />
 </p>
-
-```mermaid
-pie showData
-    title Months spent at each company
-    "Kody Technolabs" : 16
-    "Kaymatech" : 9
-    "Halma India (Sensit)" : 12
-```
 -->
 
 <!-- ==================== v7 (current live version, October 2026) ==================== -->
@@ -538,46 +537,53 @@ Right now I'm a Software Engineer at **Halma India PLC** (Sensit Technologies), 
 
 When I'm not coding, I'm usually writing or reading philosophy. I also enjoy learning with constraints, like writing poems with banned words or solving Dart problems using only method chains.
 
-## ⭐ Work I'm proud of
+## ⭐ Notable work
 
 ### 🧪 SyncIT
 
 `Sensit Technologies · Halma India` &nbsp; `2025 – present` &nbsp; `Android · iOS · Windows`
 
-[Sensit](https://sensit-tech.com/gas-leak-detection-software/) has made gas-detection instruments for utilities, firefighters and hazmat teams for over 40 years. SyncIT is its next-generation instrument management platform, replacing the older SCAL-D and SCAL-N tools.
+[Sensit](https://sensit-tech.com/gas-leak-detection-software/) has made gas-detection instruments for utilities, firefighters and hazmat teams for over 40 years. SyncIT is its next-generation instrument management platform, consolidating several older Sensit applications into one cross-platform product.
+
+**My role:** Primary developer, working with a 25–30 person team across software, firmware, hardware, QA, project management and marketing in Ahmedabad, Valparaiso (Indiana, USA) and Bolzano (Italy).
 
 **What I did**
-- Took it from a proof of concept to a production MVP as the primary developer, replacing several legacy apps with one Flutter codebase.
-- Set it up as a Melos monorepo, so the Lite (offline field use) and Plus (cloud sync and reporting) tiers ship from one shared core.
-- Proposed and built a tool that configures 50+ instrument settings automatically. Manual effort on the production line dropped by about 99%.
-- Made the app 30–35% faster by reworking the local database schema and queries.
+- Took SyncIT from a proof of concept to a production-ready MVP, and kept evolving it through new features, architectural improvements and client-driven changes.
+- Structured it as a Melos monorepo with two product variants: SyncIT Lite (offline-first, for field evaluation) and SyncIT Plus (cloud sync, advanced reporting and premium integrations), built on a shared core package and a dedicated log-parsing SDK.
+- Built the device communication modules: BLE for gas-detection instruments, and Wi-Fi, LAN and serial for calibration stations, covering log download, parsing, visualization, firmware update workflows and multi-format export.
+- Suggested and built a settings application for three instruments, with an automated BLE update flow across 50 settings. Working with the firmware team, this cut manual production effort by about 99%.
+- Improved app performance by about 30–35% by optimizing the database schema and queries.
+- Reworked the app's UI, navigation flow and data visualization, creating wireframes with the engineering manager.
+- Built Windows-scheduled reporting for LAN-connected devices, with customizable export configurations.
+- Own the full release pipeline, from build generation and versioning to packaging and distribution on every platform.
 
-**Stack:** Flutter · Melos · ObjectBox · BLE, Wi-Fi and serial · CI/CD for three platforms
+**Stack:** Flutter · Dart · Melos · ObjectBox · BLE · Wi-Fi, LAN and serial · n8n · Claude Code
 
 ### 📺 Odigo
 
 `Kody Technolabs` &nbsp; `2023 – 2025` &nbsp; `Android · robot hardware`
 
-[Odigo](https://kodyrobots.com/) is an AI-powered advertising robot for malls, airports and events. It was showcased at GITEX 2024 and now runs in venues like LuLu Mall, DLF Mall and Jio World Drive.
+[Odigo](https://kodyrobots.com/) is an advertising robot with dual mirrored displays and centralized control. It was showcased at GITEX 2024 and now runs in venues like LuLu Mall, DLF Mall and Jio World Drive.
 
 **What I did**
-- Built the Flutter app that runs on its two displays and talks to the robot's hardware.
-- Wired Flutter to the robot through the ROS SDK, platform channels and Socket.IO.
-- Added device-to-device communication over BLE and Android's Nearby Connections API.
+- Worked on the Flutter app that drives Odigo's dual mirrored displays and centralized control.
+- Connected the app to the robot through the ROS SDK, platform channels and Socket.IO.
 
-**Stack:** Flutter · Kotlin · ROS SDK · Platform channels · Socket.IO
+**Stack:** Flutter · Kotlin/Java · Platform channels · ROS SDK · Socket.IO
 
 ### 🍽️ Dasher
 
 `Kody Technolabs` &nbsp; `2023 – 2025` &nbsp; `Android · robot hardware`
 
-[Dasher](https://kodyrobots.com/) is an autonomous serving robot for restaurants, offices and corporate events.
+[Dasher](https://kodyrobots.com/) is a multi-display delivery robot built on a platform of nine integrated panels.
 
 **What I did**
-- Built the advertisement panel in Dasher's nine-panel system.
-- Added scheduling for dynamic content and remote file transfer, so new content reaches the robot without anyone touching it.
+- Worked as one of the core developers on the Dasher platform.
+- Was the primary developer of the Advertisement Panel, building dynamic content scheduling and remote file transfer to the robot.
 
-**Stack:** Flutter · Kotlin · Socket.IO
+**Stack:** Flutter · Android native · MVVM and DDD
+
+At Kody, I also worked across Flutter and native Android layers, integrating BLE and Android's Nearby Connections API for device-to-device communication.
 
 ## 📱 Other apps I've shipped
 
@@ -586,7 +592,7 @@ When I'm not coding, I'm usually writing or reading philosophy. I also enjoy lea
 | **SMX Drives** | Freelance. Companion app for an EV motor controller: live telemetry, ride modes, diagnostics and over-the-air firmware updates. | [Google Play](https://play.google.com/store/apps/details?id=com.smx.app) · [App Store](https://apps.apple.com/us/app/smx-drives/id6759551598) |
 | **TakeProfit** | Subscription crypto-analytics app, built in a team of four at Kody. | — |
 | **Xandria** | eBook and audiobook platform. We built the MVP as the same team. | — |
-| **Kaymatech apps** | 12+ consumer apps across Android, iOS, macOS and Windows, about 4,500 installs each on average. I also built the company's Windows in-app purchase system from scratch. | — |
+| **Kaymatech apps** | 12+ utility apps across Android, iOS, macOS, Windows and Linux, averaging 4,000–5,000 installs and a 5–6% premium conversion rate. I designed the company's Windows in-app purchase infrastructure, built its entire Windows portfolio, and ran a web-purchase experiment with two products when RevenueCat added web support. | — |
 
 ## 🧪 Side projects
 
@@ -607,7 +613,13 @@ timeline
     2026 : SMX Drives went live on Google Play and the App Store
 ```
 
-
+```mermaid
+pie showData
+    title Months spent at each company
+    "Kody Technolabs" : 16
+    "Kaymatech" : 9
+    "Halma India (Sensit)" : 12
+```
 
 ## 🧰 Tech I use
 
@@ -672,6 +684,14 @@ flowchart LR
 - ✍️ Writing about Flutter, how I approach building software, and now and then, philosophy.
 - 🤖 Using Claude Code as a core part of my workflow, with my own Skills, hooks and MCP servers. I'm also designing a layer that sits between Claude Code and the developers who use it.
 - 🗾 Learning Japanese and French.
+
+## 🏆 Achievements
+
+<p>
+  <a href="https://community.vaunt.dev/board/uveshm003/achievements"><img src="https://api.vaunt.dev/v1/github/entities/uveshm003/achievements/8d50131a-5390-4930-bf76-358636f52f0b?format=svg&style=raw" width="300" alt="Nebula Novice: merged my first pull request" /></a>
+</p>
+
+<sub>See every achievement on my <a href="https://community.vaunt.dev/board/uveshm003/achievements">Vaunt board</a>.</sub>
 
 ## 🤝 Let's talk
 
