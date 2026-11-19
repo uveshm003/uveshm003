@@ -113,7 +113,7 @@ More are in review at Flutter, dart-lang, Bloc, Mason, Dio, Freezed and Patrol. 
 | **[DevAccess](https://github.com/uveshm003/devaccess)** | A developer options and device insight hub for Android. | Flutter · Kotlin |
 | **[Compass](https://github.com/uveshm003/compass)** | A Claude Code plugin and local CLI that routes work to the cheapest executor that can do it correctly, and makes AI changes reviewable. | Python · tree-sitter · MCP |
 | **[AI Dev Toolkit](https://github.com/uveshm003/ai-dev-toolkit)** | The best skills, plugins, MCP servers and workflows for AI coding agents, ranked and explained. | Markdown |
-| **QuickServe** | A two-sided home-services marketplace. Orders are dispatched through a queue, and payments are verified on the server. | Flutter · Spring Boot · MySQL · Redis · Razorpay |
+| **[QuickServe](https://github.com/uveshm003/quickserve)** | A two-sided home-services marketplace. Orders are dispatched through a queue, and payments are verified on the server. | Flutter · Spring Boot · MySQL · Redis · Razorpay |
 | **Atomic Dev Tools** | 44 small developer utilities in the browser. Almost all of them run entirely on your machine. | Next.js · TypeScript · Turborepo |
 
 ## 🗺️ How I got here
