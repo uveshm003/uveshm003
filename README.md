@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/muhammaduvesh/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://uveshmenpur.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-0E7C6B?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://uveshm003.github.io/"><img src="https://img.shields.io/badge/Portfolio-0E7C6B?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
   <a href="mailto:uveshmenpur.03@gmail.com"><img src="https://img.shields.io/badge/Email-B8354A?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
@@ -162,7 +162,7 @@ Socket.IO · Claude Code · n8n
 
 I'm always happy to talk about Flutter, apps that work with hardware, or AI-assisted development. I'm also open to freelance work.
 
-📫 [uveshmenpur.03@gmail.com](mailto:uveshmenpur.03@gmail.com) · [LinkedIn](https://www.linkedin.com/in/muhammaduvesh/) · [Portfolio](https://uveshmenpur.netlify.app/)
+📫 [uveshmenpur.03@gmail.com](mailto:uveshmenpur.03@gmail.com) · [LinkedIn](https://www.linkedin.com/in/muhammaduvesh/) · [Portfolio](https://uveshm003.github.io/)
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E3B8A,50:2D5BD0,100:0E7C6B&height=110&section=footer" alt="" />
