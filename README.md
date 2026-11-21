@@ -81,7 +81,7 @@ I fix bugs and fill documentation gaps in the Dart and Flutter ecosystem. Merged
 | [Drift](https://github.com/simolus3/drift) | [Remove the comma left after a moved insert mode argument](https://github.com/simolus3/drift/pull/3890) |
 | [Freezed](https://github.com/rrousselGit/freezed) | [Enable freezed_lint in the Freezed example](https://github.com/rrousselGit/freezed/pull/1383) |
 | [shelf](https://github.com/dart-lang/shelf) | [shelf_static: ignore invalid If-Modified-Since headers](https://github.com/dart-lang/shelf/pull/557) |
-| [dart-lang/tools](https://github.com/dart-lang/tools) | [boolean_selector: print `\|\|` in UnionSelector.toString()](https://github.com/dart-lang/tools/pull/2735) |
+| [dart-lang/tools](https://github.com/dart-lang/tools) | [html: fix `:empty` and `:blank` matching the wrong elements](https://github.com/dart-lang/tools/pull/2734) · [boolean_selector: print `\|\|` in UnionSelector.toString()](https://github.com/dart-lang/tools/pull/2735) |
 | [Patrol](https://github.com/leancodepl/patrol) | [Resolve dependencies in gen_from_schema](https://github.com/leancodepl/patrol/pull/3330) · [Document the --ios option for iOS Simulator runs](https://github.com/leancodepl/patrol/pull/3327) |
 | [marionette_mcp](https://github.com/leancodepl/marionette_mcp) | [Time out connect when the VM service stops answering](https://github.com/leancodepl/marionette_mcp/pull/143) |
 | [mobile_scanner](https://github.com/juliansteenbakker/mobile_scanner) | [Opt in to experimental CameraX APIs so lintDebug passes](https://github.com/juliansteenbakker/mobile_scanner/pull/1852) |
@@ -89,7 +89,7 @@ I fix bugs and fill documentation gaps in the Dart and Flutter ecosystem. Merged
 | [Heartry](https://github.com/SirusCodes/Heartry) | [Wait for shared images to be written before sharing](https://github.com/SirusCodes/Heartry/pull/19) · [Keep changelog dialog buttons visible on narrow screens](https://github.com/SirusCodes/Heartry/pull/18) |
 | [BitChord](https://github.com/kushagrasinghx/BitChord) | [Fix the outside shuffle buttons](https://github.com/kushagrasinghx/BitChord/pull/1554) · [Add a setting to hide the Listen Together pill](https://github.com/kushagrasinghx/BitChord/pull/906) · [Point the swipe hint the right way](https://github.com/kushagrasinghx/BitChord/pull/905) · [Treat KuGou's instrumental notice as no lyrics](https://github.com/kushagrasinghx/BitChord/pull/898) |
 
-More are in review at Flutter, dart-lang, Bloc, Mason, Dio, Freezed and Patrol. [See all my pull requests](https://github.com/search?q=author%3Auveshm003+is%3Apr+-user%3Auveshm003&type=pullrequests&s=created&o=desc).
+More than 30 are in review, at Flutter, dart-lang, Riverpod, Freezed, Bloc, Mason, Mocktail, Dio, Patrol and Ubuntu. [See all my pull requests](https://github.com/search?q=author%3Auveshm003+is%3Apr+-user%3Auveshm003&type=pullrequests&s=created&o=desc).
 
 <sub>Achievements are on my <a href="https://community.vaunt.dev/board/uveshm003/achievements">Vaunt board</a>.</sub>
 
@@ -106,14 +106,17 @@ More are in review at Flutter, dart-lang, Bloc, Mason, Dio, Freezed and Patrol. 
 
 | Project | What it is | Built with |
 | --- | --- | --- |
+| **[Mosaic](https://github.com/uveshm003/mosaic)** | The platform behind [my portfolio](https://uveshm003.github.io/): a home page, four portfolios with their own designs, and a brand site. Content is edited in a CMS and published as static pages, and every deploy is checked for accessibility, keyboard use and performance first. | Next.js · Payload · Postgres · Cloudflare Workers · Playwright |
 | **[Encore](https://github.com/uveshm003/encore)** | An offline audio studio. Import a song, strip the vocal on-device, sing over the backing, then mix and export. | Flutter · ONNX Runtime |
 | **[Cairn](https://github.com/uveshm003/cairn)** | A private recorder for audio and video entries, with tags and search. It makes no network requests at all. | Flutter |
 | **[Clearing](https://github.com/uveshm003/clearing)** | A calm, offline-first Android app for closing your mental tabs: capture, clarify, plan, close. | Flutter |
 | **[SpeakUp](https://github.com/uveshm003/speakup)** | A spoken-English practice app that works with no account and no internet. | Flutter · BLoC · ObjectBox · Hive |
 | **[DevAccess](https://github.com/uveshm003/devaccess)** | A developer options and device insight hub for Android. | Flutter · Kotlin |
+| **[Anchor](https://github.com/uveshm003/anchor-android)** | Tap your phone on an NFC sticker or QR code to block distracting apps, and tap it again to get them back. On-device only. In early development. | Kotlin · Jetpack Compose · NFC |
+| **[Unreel](https://github.com/uveshm003/unreel-android)** | Blocks Instagram Reels and YouTube Shorts while DMs, search and normal videos keep working. On-device only. In early development. | Kotlin · Jetpack Compose |
 | **[Compass](https://github.com/uveshm003/compass)** | A Claude Code plugin and local CLI that routes work to the cheapest executor that can do it correctly, and makes AI changes reviewable. | Python · tree-sitter · MCP |
 | **[AI Dev Toolkit](https://github.com/uveshm003/ai-dev-toolkit)** | The best skills, plugins, MCP servers and workflows for AI coding agents, ranked and explained. | Markdown |
-| **[QuickServe](https://github.com/uveshm003/quickserve)** | A two-sided home-services marketplace. Orders are dispatched through a queue, and payments are verified on the server. | Flutter · Spring Boot · MySQL · Redis · Razorpay |
+| **QuickServe** | A two-sided home-services marketplace. Orders are dispatched through a queue, and payments are verified on the server. | Flutter · Spring Boot · MySQL · Redis · Razorpay |
 | **Atomic Dev Tools** | 44 small developer utilities in the browser. Almost all of them run entirely on your machine. | Next.js · TypeScript · Turborepo |
 
 ## 🗺️ How I got here
@@ -124,7 +127,7 @@ timeline
     2023 : Graduated : Joined Kody Technolabs
     2024 : Built the Flutter apps for the Dasher and Odigo robots : Shipped TakeProfit and Xandria with a team of four
     2025 : Joined Kaymatech and shipped 12+ apps : Built Windows in-app purchases from scratch : Joined Halma India to build SyncIT
-    2026 : SMX Drives went live on Google Play and the App Store : Started contributing to the Dart and Flutter ecosystem
+    2026 : SMX Drives went live on Google Play and the App Store : Started contributing to the Dart and Flutter ecosystem : Built Mosaic, the platform behind my portfolio
 ```
 
 ## 🧰 Tech I use
@@ -135,13 +138,15 @@ timeline
   <img src="https://skillicons.dev/icons?i=flutter,dart,kotlin,java,swift,firebase,sqlite&perline=7" alt="Mobile" />
 </p>
 
-BLoC · Riverpod · Provider · Melos · ObjectBox · Hive · Platform channels · BLE · RevenueCat · Razorpay
+BLoC · Riverpod · Provider · Melos · ObjectBox · Hive · Jetpack Compose · Platform channels · BLE · NFC · RevenueCat · Razorpay
 
 **Backend and web**
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=spring,nodejs,nestjs,angular,nextjs,ts,js,py&perline=8" alt="Backend and web" />
 </p>
+
+Payload CMS · Cloudflare Workers · Playwright
 
 **Databases and tools**
 
@@ -155,6 +160,7 @@ Socket.IO · Claude Code · n8n
 
 - 🔬 Exploring how Flutter works internally, across the framework, engine and embedder layers.
 - ✍️ Writing about Flutter, how I approach building software, and now and then, philosophy.
+- 📵 Building Anchor and Unreel, two on-device Android apps that make phones less distracting, in Kotlin and Jetpack Compose.
 - 🤖 Using Claude Code as a core part of my workflow, with my own Skills, hooks and MCP servers. I'm also designing a layer that sits between Claude Code and the developers who use it.
 - 🗾 Learning Japanese and French.
 
